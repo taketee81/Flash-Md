@@ -40,7 +40,7 @@
     },
     "AUTO_REACTION": {
       "description": "Automatically react to received messages. Set to 'on' to enable or 'off' to disable.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "ANTI_DELETE": {
@@ -74,17 +74,17 @@
     },
     "SESSION_ID": {
       "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
-      "value": "",
+      "value": "FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUxic3R5bHRxcmMvY2p0NFJIbFBRMUZ0alNUZGxRa21JMlJRMklQOE1Iaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTXRaZFJiMkNzY1I0VnRKc3Z5R0FoaSt5SE8xTlRjRGRQdWx2cVA5dmkzRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1SzE5Q0QvMVpWSHJaaWdZYWM1Wm9OTkdXUW1ZeGhzZUMvc2xML3luazBRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrWjl0eXlnaHlSbjVVY3ZVMm9tNUFZWVpORys4Si9uR0JqSk9BeDUwS1dzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVGWkdiWFEwQndWZGlSK2lHNnFLWXRydG1mVlVvK0VOOU1PM3N4VmR2MDQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRvY3JvaVN2dmdXYzNaMTRZKzVQWG5BYjN5cXZlK2ZuOHJocXgvdUo3VUk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUtoL3NjUmNrRlpFMk5ZbUg0MldsdGlORjFXUDd4cHM4WkxvM2RUQTdGaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQXZOaFcrZDkvTmpuTkVCOHpLcnhNZC9CVG1rMkFYYUE3eTJpSlVGaG95dz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImhCUTBTZDU2eU5yRFdHNFBPeXBYSE0yREV3MUhJd0lZbjZGN3g5ZXpreG9FNk1xU2FiN05FcDFzQ1V0Umt2cERpeGg5Mm8zc0ZSdzFJNHFPYTlobWd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjUsImFkdlNlY3JldEtleSI6Ik85TVFjcW1ibTF4Mit3SVhZb3ZFdW1YM1kvTUI5aWs5RmNhbWpTNWZxT1E9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImV5S05tMVRrUi15ajQ5WU10T212ZEEiLCJwaG9uZUlkIjoiYTM5MThmNmQtMWEyNi00MDBiLTg5YjctOTMyNjIxNmIzNDc4IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImcrR21hUzBKei96YzkzZzgzSWJLK1pVcXJhMD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvcDc3UWRMTS8wMkdzU05XcE9PVzEwYnYrK2s9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWUpXUzhCWE0iLCJtZSI6eyJpZCI6IjIzMjc0NDQ4MTMwOjUwQHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik1yIFRha2UgVGVlIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNdURvZE1ERVAvbW9yMEdHQVlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJPWGovS0RzSE9iUDgyamdESWZiRGxIUXFGMFZxUEpkc1FSOGtPdXpHSVFBPSIsImFjY291bnRTaWduYXR1cmUiOiI5U3hwWkFEeGpuV0VMSityZk5BQW80a2JoNHlmMDdsOGY0dGxUaGtWRUY0SmtTZHA5V05HT25VR013a2hIQ0I4VjJGeUFxdUZFT0dldTFsb3pnRHNDZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiTlppZFdPeGtLZ2pkL0V3d1BWTEpxeXhMUEJyb25TZ01KMitTY0ZVbjFEKzltays0RG5iakI0T2pjbGNmek9lODRFUjd2S1hGR2JBRzRJbXFIaERJaVE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzI3NDQ0ODEzMDo1MEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUbDQveWc3Qnptei9ObzRBeUgydzVSMEtoZEZhanlYYkVFZkpEcnN4aUVBIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM5MTA5MjYwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQVByUyJ9",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "Take Tee",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "23274448130",
       "required": false
     },
     "WARN_COUNT": {
